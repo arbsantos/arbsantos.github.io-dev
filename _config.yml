@@ -1,0 +1,56 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: André Santos
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: ""
+baseurl: ""
+
+google_analytics: UA-147076151-1
+repo: https://github.com/arbsantos/arbsantos.github.io
+
+collections:
+  publications:
+    output: true
+
+# Author settings
+author:
+  name: André Santos
+  job: "Researcher @ LASIGE"
+  bio-1: "Informatics engineer, Android and Linux enthusiast."
+  bio-2: " Normal people: if it ain't broke, don't fix it. Engineers: it ain't broke, it doesn't have enough features yet. "
+  thumb: /images/author.jpg
+  email: andre13521@gmail.com
+  url: https://arbsantos.github.io/
+  github: https://github.com/arbsantos/
+  twitter: https://twitter.com/lemit93
+  scholar: https://scholar.google.com/citations?user=R65EmPMAAAAJ
+  # facebook: https://facebook.com/umdevux
+  linkedin: https://www.linkedin.com/in/andr%C3%A9-santos-407116100/
+
+# navbar pages
+navbar:
+  - slug: about me
+    title: About me
+  - slug: publications
+    title: Publications
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]

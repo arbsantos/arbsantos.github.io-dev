@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="container">
+      <img src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb" class="dot">
+      <h1><strong itemprop="name">{{ site.author.name }}</strong></h1>
+      <h3>I'm a <em itemprop="jobTitle">{{ site.author.job }}</em></h3>
+      <h3>{{ site.author.bio-1 }}</h3>
+      <h3><i class="icon icon-quotes-left"></i>{{ site.author.bio-2 }}<i class="icon icon-quotes-right"></i></h3>
+      <a href="{{ '/about' | prepend: site.baseurl }}" class="button button-ghost" title="about">about me</a>
+      {% include social.html %}
+    </div>
+  </div>
+</section>
