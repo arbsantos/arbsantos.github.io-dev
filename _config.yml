@@ -25,7 +25,7 @@ url: ""
 baseurl: ""
 
 google_analytics: UA-147076151-1
-repo: https://github.com/arbsantos/arbsantos.github.io
+repo: https://github.com/arbsantos/arbsantos.github.io-dev
 
 collections:
   publications:
