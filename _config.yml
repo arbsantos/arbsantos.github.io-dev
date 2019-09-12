@@ -48,7 +48,7 @@ author:
 
 # navbar pages
 navbar:
-  - slug: about me
+  - slug: about_me
     title: About me
   - slug: publications
     title: Publications
