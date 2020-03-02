@@ -1,5 +1,5 @@
 <article class="post">
-  <figure class="post-thumbnail {% if post.image %}{% else %}no-image{% endif %}">
+  <figure style="margin-top: 10px;"  class="post-thumbnail {% if post.image %}{% else %}no-image{% endif %}">
     <a href="{{ post.url | prepend: site.baseurl }}">
       {% if post.image %}
         <img src="{{ site.url }}{{ site.baseurl }}/images/publications/{{ post.image }}" alt="{{ post.title }}">
@@ -15,6 +15,8 @@
         <time>{{ post.date | date: "%b %-d, %Y" }}</time>
       </em>
     </header>
-    <p><a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}">{{ post.content | strip_html | truncatewords: 30 }} <span class="read-more">[read more]</span></a></p>
+    <p><a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}">{{ post.content | strip_html | truncatewords: 20 }} <span class="read-more">[read more]</span></a></p>
+    <p style="font-size: small; padding-top: 1px; color: rgb(100, 100, 100); margin:0;">{{ post.authors }}</p>
+    <p style="font-size: small; padding-top: 1px; color: rgb(100, 100, 100); margin:0;"><strong>{{ post.conference-name }}</strong>&nbsp;<strong>{{ post.year }}</strong>&nbsp;&#8209;&nbsp;{{ post.venue }}</p>
   </div>
 </article>

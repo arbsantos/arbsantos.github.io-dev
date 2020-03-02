@@ -2,12 +2,6 @@
 permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
-plugins: [jekyll-paginate-v2]
-
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/page/:num/"
 
 comments: true
 
@@ -35,6 +29,7 @@ collections:
 author:
   name: André Santos
   job: "Researcher @ LASIGE"
+  job-url: "https://www.lasige.di.fc.ul.pt"
   bio-1: "Informatics engineer, Android and Linux enthusiast."
   bio-2: " Normal people: if it ain't broke, don't fix it. Engineers: it ain't broke, it doesn't have enough features yet. "
   thumb: /images/author.jpg
@@ -43,7 +38,6 @@ author:
   github: https://github.com/arbsantos/
   twitter: https://twitter.com/lemit93
   scholar: https://scholar.google.com/citations?user=R65EmPMAAAAJ
-  # facebook: https://facebook.com/umdevux
   linkedin: https://www.linkedin.com/in/andr%C3%A9-santos-407116100/
 
 # navbar pages
