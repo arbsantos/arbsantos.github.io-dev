@@ -8,7 +8,7 @@ layout: pages
     <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
       <em class="post-meta">
-        <time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+        <time>{{ page.date | date: "%Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
       </em>
     </header>
 

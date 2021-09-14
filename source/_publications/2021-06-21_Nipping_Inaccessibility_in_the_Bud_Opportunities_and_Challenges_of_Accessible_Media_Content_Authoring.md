@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Nipping Inaccessibility in the Bud: Opportunities and Challenges of Accessible Media Content Authoring"
+
+description: "Social media represents a large part of the content available on the Web. While the accessibility of the UIs of existing social media platforms has been improving, the same cannot be said about the accessibility of the content authored by their users. Specifically, the accessibility of multimedia content that is increasingly available given the ease of access to mobile devices with cameras. User research has revealed that accessible authoring practices are a foreign concept to most social media users, but also that they are motivated to adopt inclusive practices. Our work focuses on promoting awareness to accessible social media authoring practices and in assisting the authoring process. We have prototyped a Google Chrome extension and an Android application that can identify when a Twitter or a Facebook user is authoring content with images and suggests a text alternative for the image. By suggesting the alternative, we raise awareness to the accessible authoring process and make it easier for the user to include it in the tweet or post. Text alternatives may be suggested from different sources: descriptions entered by other users for the same image, analysis of the main concepts present in the image, or text present in the image, for instance. Our prototypes can also provide text alternatives on demand for images on any web page or Android application, not just social media. In this paper, we highlight some of the challenges faced to offer this support in different technological platforms (web and mobile), but also ones that are raised by the domain characteristics (e.g. detecting the same image, supporting different languages) and that can be addressed through AI based technologies"
+
+date: 2021-06-21
+# nickname of the person set in data/team_members.yml
+authors: Carlos Duarte, Letícia Seixas Pereira, André Santos, João Vicente, André Rodrigues, João Guerreiro, José Coelho, Tiago Guerreiro
+
+# link to the pdf
+pdf: https://dl.acm.org/doi/pdf/10.1145/3462741.3466644
+
+conference-name: WebSci
+venue: "13th ACM Web Science Conference"
+image: 2021-06-21_Nipping_Inaccessibility_in_the_Bud_Opportunities_and_Challenges_of_Accessible_Media_Content_Authoring.jpg
+
+---
+
+Social media represents a large part of the content available on the Web. While the accessibility of the UIs of existing social media platforms has been improving, the same cannot be said about the accessibility of the content authored by their users. Specifically, the accessibility of multimedia content that is increasingly available given the ease of access to mobile devices with cameras. User research has revealed that accessible authoring practices are a foreign concept to most social media users, but also that they are motivated to adopt inclusive practices. Our work focuses on promoting awareness to accessible social media authoring practices and in assisting the authoring process. We have prototyped a Google Chrome extension and an Android application that can identify when a Twitter or a Facebook user is authoring content with images and suggests a text alternative for the image. By suggesting the alternative, we raise awareness to the accessible authoring process and make it easier for the user to include it in the tweet or post. Text alternatives may be suggested from different sources: descriptions entered by other users for the same image, analysis of the main concepts present in the image, or text present in the image, for instance. Our prototypes can also provide text alternatives on demand for images on any web page or Android application, not just social media. In this paper, we highlight some of the challenges faced to offer this support in different technological platforms (web and mobile), but also ones that are raised by the domain characteristics (e.g. detecting the same image, supporting different languages) and that can be addressed through AI based technologies
